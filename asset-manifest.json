@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/BestClothes/static/css/main.f2d1d8d6.css",
+    "main.js": "/BestClothes/static/js/main.e2c02e24.js",
+    "static/js/787.40b3e421.chunk.js": "/BestClothes/static/js/787.40b3e421.chunk.js",
+    "static/media/futbol.png": "/BestClothes/static/media/futbol.544c863198eb3c83cece.png",
+    "index.html": "/BestClothes/index.html",
+    "main.f2d1d8d6.css.map": "/BestClothes/static/css/main.f2d1d8d6.css.map",
+    "main.e2c02e24.js.map": "/BestClothes/static/js/main.e2c02e24.js.map",
+    "787.40b3e421.chunk.js.map": "/BestClothes/static/js/787.40b3e421.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f2d1d8d6.css",
+    "static/js/main.e2c02e24.js"
+  ]
+}
