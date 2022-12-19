@@ -1,5 +1,7 @@
 export const products = [
+
     {
+        id: 1,
         name: "Nike Mercurial",
         price: 5000,
         stock: 6,
@@ -10,6 +12,7 @@ export const products = [
         
     },
     {
+        id: 2,
         name: "Nike Barcelona",
         price: 3000,
         stock: 6,

@@ -1,12 +1,15 @@
 import {GiShoppingCart} from "react-icons/gi"
 import "./CartWidgets.css"
+import { Link } from "react-router-dom"
 
 
 const CartWidgets = () => {
   return (
-    <div>
-       <GiShoppingCart className="carrito"/>
-    </div>
+    <Link to="/cart">
+      <div>
+        <GiShoppingCart className="carrito"/>
+      </div>
+    </Link>
   )
 }
 

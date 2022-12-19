@@ -1,18 +1,19 @@
 import "./NavBar.css"
 import futbol from "../img/futbol.png"
 import CartWidgets from "./cartWidgets/CartWidgets"
+import{ Link } from "react-router-dom"
 
 export const NavBar = ()=>{
 
     return(
         <div className="NavBar">
             <div >
-               <img className="logo" src={futbol} alt="" />
+            <Link to="/">  <img className="logo" src={futbol} alt="" /> </Link>
             </div>
             <ul className="Menu">
-                <li>Home</li>
-                <li>Productos</li>
-                <li>Nosotros</li>
+                <Link to="/">Home</Link>
+                <Link to="/category/camisetas">Camisetas</Link>
+                <Link to="/category/championes">Championes</Link>
             </ul>
             <div >
                 <CartWidgets />
